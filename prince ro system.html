@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PRINCE RO SYSTEM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f3;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #004b8d;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #004b8d;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PRINCE RO SYSTEM</h1>
+    <p>DANA ROAD KAPADWANJ,KHEDA,GUJARAT<ent>
+Pure water, powered by RO technology</ent></p>
+  </header>
+<section>
+  <h2>Search Our Gallery</h2>
+  <input type="text" id="searchBox" onkeyup="filterGallery()" placeholder="Search images..." style="padding: 10px; width: 100%; max-width: 400px;">
+
+  <div id="gallery" class="gallery">
+    <div class="image-item">
+      <img src="images/ro1.jpg" alt="Filter RO System">
+      <p>Filter RO System</p>
+    </div>
+    <div class="image-item">
+      <img src="images/ro2.jpg" alt="Compact RO Unit">
+      <p>Compact RO Unit</p>
+    </div>
+    <div class="image-item">
+      <img src="images/ro3.jpg" alt="Commercial RO Plant">
+      <p>Commercial RO Plant</p>
+    </div>
+  </div>
+</section>
+  <section>
+    <h2>Why Choose Us?</h2>
+    <p>Our Reverse Osmosis (RO) systems offer numerous benefits for improving water quality:</p>
+    
+    <h3>1. Superior Contaminant Removal</h3>
+    <ul>
+      <li>Removes bacteria, viruses, heavy metals, chlorine, fluoride, and more</li>
+      <li>Healthier drinking water with fewer harmful substances</li>
+    </ul>
+
+    <h3>2. Better Taste, Odor, and Appearance</h3>
+    <ul>
+      <li>Improves taste and smell of water</li>
+      <li>Enhances beverages and food prepared with water</li>
+    </ul>
+
+    <h3>3. Cost-Effective & Convenient</h3>
+    <ul>
+      <li>Reduces bottled water usage</li>
+      <li>Environmentally friendly and low maintenance</li>
+    </ul>
+
+    <h3>4. Versatility</h3>
+    <ul>
+      <li>Works with tap, well, and borewell water</li>
+      <li>Used in residential, commercial, and industrial settings</li>
+    </ul>
+
+    <h3>5. Energy Efficient</h3>
+    <ul>
+      <li>Low power consumption</li>
+      <li>Water-saving designs available</li>
+    </ul>
+
+    <p>Experience cleaner, healthier, and better-tasting water today with PRINCE RO SYSTEM.</p>
+  </section>
+/C:\Users\UMA\Desktop\prince ro system
+│
+├── index.html
+└── images/
+    ├── AROMA BROWN.jpg
+    ├── ro2.jpg
+    └── ro3.jpg
+<section class="mobile-gallery">
+  <h2>Mobile Photo Gallery</h2>
+  <div class="gallery">
+    <img src="images/ro1.jpg" alt="RO System 1">
+    <img src="images/ro2.jpg" alt="RO System 2">
+    <img src="images/ro3.jpg" alt="RO System 3">
+  </div>
+</section>
+/* Hide mobile gallery by default */
+.mobile-gallery {
+  display: none;
+}
+
+/* Show only on mobile (screen width 768px or less) */
+@media only screen and (max-width: 768px) {
+  .mobile-gallery {
+    display: block;
+    padding: 1rem;
+    background: #fff;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RO System Gallery</title>
+</head>
+<body>
+
+  <h1>Our RO Systems</h1>
+
+  <div>
+    <img src="images/ro1.jpg" alt="RO System 1" width="300">
+    <img src="images/ro2.jpg" alt="RO System 2" width="300">
+    <img src="images/ro3.jpg" alt="RO System 3" width="300">
+  </div>
+
+</body>
+</html>
+</section>
+</body>
+</html>
